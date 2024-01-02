@@ -48,7 +48,7 @@ function rotateAndMoveCircle() {
     // Schedule the next iteration using setTimeout
     setTimeout(() => {
         rotateAndMoveCircle();
-    }, 1000);
+    }, 1000000);
 
     // Use requestAnimationFrame for smoother animation
     requestAnimationFrame(rotateAndMoveCircle);
